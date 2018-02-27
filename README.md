@@ -25,6 +25,7 @@ My New Tab Default Homepage
 - Chief Delphi
 - TechHOUNDS Website
 - Indiana FIRST
+- Google Drive for TechHOUNDS
 
 #### Code
 
@@ -49,3 +50,7 @@ My New Tab Default Homepage
 - EEV Blog
 - HackerNoon
 - Basecamp
+
+#### School
+- Canvas
+- Google Drives
