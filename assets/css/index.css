@@ -5,7 +5,10 @@ body {
 }
 
 .card-body > .btn {
+    margin: auto;
+    width: 45%;
     margin-bottom: 10px;
+    margin-right: 5px;
 }
 
 .breadcrumb {
