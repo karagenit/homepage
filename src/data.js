@@ -5,6 +5,10 @@ var data = [
             {
                 name: 'Home',
                 url: 'https://github.com'
+            },
+            {
+                name: 'Test',
+                url: '#'
             }
         ]
     },
