@@ -5,13 +5,13 @@ import './App.css';
 class Card extends Component {
   render() {
     return (
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">
-              { this.props.title }
-            </h5>
-          </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            { this.props.data.name }
+          </h5>
         </div>
+      </div>
     );
   }
 }
@@ -19,10 +19,16 @@ class Card extends Component {
 class App extends Component {
   render() {
     var body = [];
+
     this.props.data.forEach(function(e) {
-        body.push( <Card title={e.name} /> );
+      body.push( <Card data={e} /> );
     });
-    return (<div class="container"> {body} </div>);
+
+    return (
+      <div class="container">
+        {body}
+      </div>
+    );
   }
 }
 
