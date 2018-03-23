@@ -9,6 +9,10 @@ var data = [
             {
                 name: 'Test',
                 url: '#'
+            },
+            {
+                name: 'Another',
+                url: '#'
             }
         ]
     },

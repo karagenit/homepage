@@ -6,25 +6,41 @@ class Link extends Component {
   render() {
     return(
       <div class="col">
-        <a class="btn btn-outline-secondary btn-block" href={ this.props.data.url }>
-          { this.props.data.name }
+        <a class="btn btn-outline-secondary btn-block" href={ this.props.link.url }>
+          { this.props.link.name }
         </a>
       </div>
     );
   }
 }
 
+class LinkRow extends Component {
+  render() {
+    var cols = [];
+
+    this.props.links.forEach(function (link) {
+      cols.push(
+        <Link link={ link } />
+      );
+    });
+
+    return(
+      <div class="row">
+        { cols }
+      </div>
+    );
+  }
+}
+
+
 class Card extends Component {
   render() {
     var body = [];
-    var newRow = true;
+    var colCount = 2;
 
-    for (var i = 0; i < this.props.data.links.length; i += 2) {
+    for (var i = 0; i < this.props.data.links.length; i += colCount) {
       body.push(
-        <div class="row">
-          <Link data={ this.props.data.links[i] } />
-          <Link data={ this.props.data.links[i+1] } />
-        </div>
+        <LinkRow links={ this.props.data.links.slice(i, i+colCount) } />
       );
     }
 
