@@ -1,9 +1,16 @@
 var data = [
     {
-        name: 'Github'
+        name: 'Github',
+        links: [
+            {
+                name: 'Home',
+                url: 'https://github.com'
+            }
+        ]
     },
     {
-        name: 'Google'
+        name: 'Google',
+        links: []
     }
 ]
 
