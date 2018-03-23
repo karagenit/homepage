@@ -18,11 +18,11 @@ class Card extends Component {
 
 class App extends Component {
   render() {
-    return (
-      <div class="container">
-        <Card title={this.props.data[0].name} />
-      </div>
-    );
+    var body = [];
+    this.props.data.forEach(function(e) {
+        body.push( <Card title={e.name} /> );
+    });
+    return (<div class="container"> {body} </div>);
   }
 }
 
