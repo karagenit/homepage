@@ -20,7 +20,7 @@ class App extends Component {
   render() {
     return (
       <div class="container">
-        <Card title="Github" />
+        <Card title={this.props.data[0].name} />
       </div>
     );
   }
