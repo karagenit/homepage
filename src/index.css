@@ -14,3 +14,7 @@ body {
 .card {
     margin-bottom: 10px;
 }
+
+.col {
+    max-width: 50%;
+}
