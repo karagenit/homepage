@@ -26,6 +26,12 @@ var data = [
                 name: 'FRC 868',
                 url: 'https://github.com/frc868'
             }
+        ],
+        inputs: [
+            {
+                prefix: 'github.com/karagenit/',
+                placeholder: 'repository'
+            }
         ]
     },
     {

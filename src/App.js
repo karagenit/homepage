@@ -31,15 +31,44 @@ class LinkRow extends Component {
   }
 }
 
+class Input extends Component {
+  render() {
+    function clickInput(e) {
+      alert('Button Clicked');
+    }
+
+    return(
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">{ this.props.input.prefix }</span>
+        </div>
+        <input type="text" class="form-control" id="test" placeholder={ this.props.input.placeholder } />
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary" type="button" id="btn" onClick={clickInput}>Go!</button>
+        </div>
+      </div>
+    );
+  }
+}
 
 class Card extends Component {
   render() {
     var body = [];
     var colCount = 2;
 
+    if (!this.props.card.inputs) { // TODO: do this in the constructor? and for links?
+      this.props.card.inputs = [];
+    }
+
     for (var i = 0; i < this.props.card.links.length; i += colCount) {
       body.push(
         <LinkRow links={ this.props.card.links.slice(i, i+colCount) } />
+      );
+    }
+
+    for (var i = 0; i < this.props.card.inputs.length; i++) {
+      body.push(
+        <Input input={ this.props.card.inputs[i] } />
       );
     }
 
