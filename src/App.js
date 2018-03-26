@@ -45,8 +45,7 @@ class Input extends Component {
   }
 
   handleClick = () => {
-    //window.location.href = this.props.input.prefix + this.state.input;
-    alert(this.state.input);
+    window.location.href = this.props.input.url + this.state.input;
   }
 
   render() {

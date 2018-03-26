@@ -29,8 +29,9 @@ var data = [
         ],
         inputs: [
             {
-                prefix: 'github.com/karagenit/',
-                placeholder: 'repository'
+                prefix: 'karagenit/',
+                placeholder: 'repository',
+                url: 'https://github.com/karagenit/'
             }
         ]
     },
