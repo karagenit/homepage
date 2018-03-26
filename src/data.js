@@ -21,6 +21,23 @@ var data = [
             {
                 name: 'Gist',
                 url: 'https://gist.github.com/'
+            },
+            {
+                name: 'FRC 868',
+                url: 'https://github.com/frc868'
+            }
+        ]
+    },
+    {
+        name: 'Code',
+        links: [
+            {
+                name: 'Stack Overflow',
+                url: 'https://stackoverflow.com'
+            },
+            {
+                name: 'Ruby Gems',
+                url: 'https://rubygems.org/profiles/karagenit'
             }
         ]
     },
@@ -34,6 +51,14 @@ var data = [
             {
                 name: 'TechHOUNDS',
                 url: 'http://techhounds.com'
+            },
+            {
+                name: 'FIRST Updates Now',
+                url: 'http://www.firstupdatesnow.com'
+            },
+            {
+                name: 'Indiana Robotics YouTube',
+                url: 'https://www.youtube.com/user/IndianaRobotics/playlists'
             }
         ]
     },
@@ -47,6 +72,36 @@ var data = [
             {
                 name: 'Calendar',
                 url: 'https://calendar.google.com'
+            },
+            {
+                name: 'Hangouts',
+                url: 'https://hangouts.google.com'
+            },
+            {
+                name: 'Gmail',
+                url: 'https://gmail.com'
+            }
+        ]
+    },
+    {
+        name: 'Other',
+        links: [
+            {
+                name: 'Wikipedia',
+                url: 'https://en.wikipedia.org'
+            },
+            {
+                name: 'Reddit',
+                url: 'https://reddit.com'
+            }
+        ]
+    },
+    {
+        name: 'School',
+        links: [
+            {
+                name: 'Canvas',
+                url: 'https://carmel.instructure.com'
             }
         ]
     }
