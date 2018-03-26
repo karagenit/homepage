@@ -32,19 +32,31 @@ class LinkRow extends Component {
 }
 
 class Input extends Component {
-  render() {
-    function clickInput(e) {
-      alert('Button Clicked');
-    }
 
+  getInitialState = () => {
+    return { input: '' };
+  }
+
+  handleChange = (e) => {
+    this.setState({ input: e.target.value });
+  }
+
+  handleClick = () => {
+    alert(this.state.input);
+  }
+
+  render() {
     return(
       <div class="input-group mb-3">
         <div class="input-group-prepend">
           <span class="input-group-text">{ this.props.input.prefix }</span>
         </div>
-        <input type="text" class="form-control" id="test" placeholder={ this.props.input.placeholder } />
+        <input type="text" class="form-control"
+          placeholder={ this.props.input.placeholder }
+          onChange={ this.handleChange } />
         <div class="input-group-append">
-          <button class="btn btn-outline-secondary" type="button" id="btn" onClick={clickInput}>Go!</button>
+          <button class="btn btn-outline-secondary" type="button"
+            onClick={ this.handleClick }>Go!</button>
         </div>
       </div>
     );
