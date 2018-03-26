@@ -38,20 +38,40 @@ class Card extends Component {
     var body = [];
     var colCount = 2;
 
-    for (var i = 0; i < this.props.data.links.length; i += colCount) {
+    for (var i = 0; i < this.props.card.links.length; i += colCount) {
       body.push(
-        <LinkRow links={ this.props.data.links.slice(i, i+colCount) } />
+        <LinkRow links={ this.props.card.links.slice(i, i+colCount) } />
       );
     }
 
     return (
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">
-            { this.props.data.name }
-          </h5>
-          { body }
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">
+              { this.props.card.name }
+            </h5>
+            { body }
+          </div>
         </div>
+      </div>
+    );
+  }
+}
+
+class CardRow extends Component {
+  render() {
+    var cards = [];
+
+    this.props.cards.forEach(function (card) {
+      cards.push(
+        <Card card={ card } />
+      );
+    });
+
+    return(
+      <div class="row">
+        { cards }
       </div>
     );
   }
@@ -59,15 +79,18 @@ class Card extends Component {
 
 class App extends Component {
   render() {
-    var body = [];
+    var rows = [];
+    var colCount = 2;
 
-    this.props.data.forEach(function(e) {
-      body.push( <Card data={ e } /> );
-    });
+    for (var i = 0; i < this.props.data.length; i += colCount) {
+      rows.push(
+        <CardRow cards={ this.props.data.slice(i, i+colCount) } />
+      );
+    }
 
     return (
       <div class="container">
-        {body}
+        { rows }
       </div>
     );
   }
