@@ -5,7 +5,7 @@ class Link extends Component {
   render() {
     return(
       <div class="col">
-        <a class="btn btn-outline-secondary btn-block" href={ this.props.link.url }>
+        <a class="btn btn-outline-secondary btn-block link-btn" href={ this.props.link.url }>
           { this.props.link.name }
         </a>
       </div>

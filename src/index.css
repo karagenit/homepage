@@ -10,7 +10,10 @@ body {
     padding: 0 15px;
 }
 
-.btn,
+.link-btn {
+    margin-bottom: 10px;
+}
+
 .card {
     margin-bottom: 10px;
 }
