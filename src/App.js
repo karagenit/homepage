@@ -33,8 +33,11 @@ class LinkRow extends Component {
 
 class Input extends Component {
 
-  getInitialState = () => {
-    return { input: '' };
+  constructor(props) {
+    super(props);
+    this.state = {
+      input: ''
+    };
   }
 
   handleChange = (e) => {
@@ -42,6 +45,7 @@ class Input extends Component {
   }
 
   handleClick = () => {
+    //window.location.href = this.props.input.prefix + this.state.input;
     alert(this.state.input);
   }
 
