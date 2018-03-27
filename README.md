@@ -18,24 +18,11 @@ To configure, you must edit `src/data.json` with the links etc. that you want in
 - Time
 - Emails
 
-### General
-
-- Outlook
-
 ### FIRST
 
 - Google Drive for TechHOUNDS
+- The Blue Alliance stats widget
 
-### Code
+### School
 
-- JSFiddle
-- HackerRank
-- HackerOne
-- OverTheWire
-
-### News etc.
-
-- HackerNews
-- EEV Blog
-- HackerNoon
-- Basecamp
+- Google Drive for School
