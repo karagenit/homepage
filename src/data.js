@@ -45,6 +45,42 @@ var data = [
             {
                 name: 'Ruby Gems',
                 url: 'https://rubygems.org/profiles/karagenit'
+            },
+            {
+                name: 'Hacker Rank',
+                url: 'https://hackerrank.com'
+            },
+            {
+                name: 'Hacker One',
+                url: 'https://hackerone.com'
+            },
+            {
+                name: 'Code Chef',
+                url: 'https://codechef.com'
+            },
+            {
+                name: 'Top Coder',
+                url: 'https://topcoder.com'
+            },
+            {
+                name: 'Kaggle',
+                url: 'https://kaggle.com'
+            },
+            {
+                name: 'CTF Time',
+                url: 'https://ctftime.org'
+            },
+            {
+                name: 'Produce Hunt',
+                url: 'https://producthunt.com/topics/open-source'
+            },
+            {
+                name: 'JS Fiddle',
+                url: 'https://jsfiddle.net'
+            },
+            {
+                name: 'Over the Wire',
+                url: 'https://overthewire.org'
             }
         ]
     },
@@ -100,6 +136,10 @@ var data = [
             {
                 name: 'Reddit',
                 url: 'https://reddit.com'
+            },
+            {
+                name: 'Outlook',
+                url: 'https://outlook.com'
             }
         ]
     },
@@ -109,6 +149,31 @@ var data = [
             {
                 name: 'Canvas',
                 url: 'https://carmel.instructure.com'
+            }
+        ]
+    },
+    {
+        name: 'News',
+        links: [
+            {
+                name: 'Hacker News',
+                url: 'https://news.ycombinator.com'
+            },
+            {
+                name: 'EEV Blog',
+                url: 'https://eevblog.com'
+            },
+            {
+                name: 'Hacker Noon',
+                url: 'https://hackernoon.com'
+            },
+            {
+                name: 'Basecamp Medium',
+                url: 'https://m.signalvnoise.com'
+            },
+            {
+                name: 'Hackaday',
+                url: 'https://hackaday.com'
             }
         ]
     }
