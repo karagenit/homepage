@@ -102,6 +102,10 @@ var data = [
             {
                 name: 'Indiana Robotics YouTube',
                 url: 'https://www.youtube.com/user/IndianaRobotics/playlists'
+            },
+            {
+                name: 'The Blue Alliance',
+                url: 'https://www.thebluealliance.com'
             }
         ]
     },
