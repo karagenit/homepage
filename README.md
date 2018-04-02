@@ -10,19 +10,14 @@ To configure, you must edit `src/data.json` with the links etc. that you want in
 
 > **NOTE:** you will have to edit the `homepage:` value in `package.json` to reflect the directory that the built files will be stored in.
 
-## Ideas
+### The Blue Alliance
 
-### Features
+If you wish to use the 'The Blue Alliance' widget, you must have your TBA read key stored in `src/token.js` formatted as:
 
-- Weather
-- Time
-- Emails
+```
+var token = {
+    token: 'abcdef0123'
+}
 
-### FIRST
-
-- Google Drive for TechHOUNDS
-- The Blue Alliance stats widget
-
-### School
-
-- Google Drive for School
+module.exports = token
+```
