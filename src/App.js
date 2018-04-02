@@ -88,33 +88,13 @@ class Card extends Component {
     }
 
     return (
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">
-              { this.props.card.name }
-            </h5>
-            { body }
-          </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            { this.props.card.name }
+          </h5>
+          { body }
         </div>
-      </div>
-    );
-  }
-}
-
-class CardRow extends Component {
-  render() {
-    var cards = [];
-
-    this.props.cards.forEach(function (card) {
-      cards.push(
-        <Card card={ card } />
-      );
-    });
-
-    return(
-      <div class="row">
-        { cards }
       </div>
     );
   }
@@ -122,18 +102,19 @@ class CardRow extends Component {
 
 class App extends Component {
   render() {
-    var rows = [];
-    var colCount = 2;
+    var cards = [];
 
-    for (var i = 0; i < this.props.data.length; i += colCount) {
-      rows.push(
-        <CardRow cards={ this.props.data.slice(i, i+colCount) } />
+    this.props.data.forEach(function(card) {
+      cards.push(
+        <Card card={card} />
       );
-    }
+    });
 
     return (
       <div class="container">
-        { rows }
+        <div class="card-columns">
+          { cards }
+        </div>
       </div>
     );
   }
