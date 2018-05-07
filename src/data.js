@@ -153,6 +153,10 @@ var data = [
             {
                 name: 'Canvas',
                 url: 'https://carmel.instructure.com'
+            },
+            {
+                name: 'MyCCS',
+                url: 'https://myccs.ccs.k12.in.us'
             }
         ]
     },
