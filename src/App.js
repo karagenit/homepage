@@ -81,9 +81,9 @@ class Card extends Component {
       );
     }
 
-    for (var i = 0; i < this.props.card.inputs.length; i++) {
+    for (var j = 0; j < this.props.card.inputs.length; j++) {
       body.push(
-        <Input input={ this.props.card.inputs[i] } />
+        <Input input={ this.props.card.inputs[j] } />
       );
     }
 
