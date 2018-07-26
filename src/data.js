@@ -36,7 +36,7 @@ var data = [
         ]
     },
     {
-        name: 'Code',
+        name: 'Code Resources',
         links: [
             {
                 name: 'Stack Overflow',
@@ -46,6 +46,15 @@ var data = [
                 name: 'Ruby Gems',
                 url: 'https://rubygems.org/profiles/karagenit'
             },
+            {
+                name: 'JS Fiddle',
+                url: 'https://jsfiddle.net'
+            }
+        ]
+    },
+    {
+        name: 'Code Challenges',
+        links: [
             {
                 name: 'Hacker Rank',
                 url: 'https://hackerrank.com'
@@ -73,10 +82,6 @@ var data = [
             {
                 name: 'Produce Hunt',
                 url: 'https://producthunt.com/topics/open-source'
-            },
-            {
-                name: 'JS Fiddle',
-                url: 'https://jsfiddle.net'
             },
             {
                 name: 'Over the Wire',
