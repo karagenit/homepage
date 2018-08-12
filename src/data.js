@@ -49,6 +49,10 @@ var data = [
             {
                 name: 'JS Fiddle',
                 url: 'https://jsfiddle.net'
+            },
+            {
+                name: 'Sourcerer',
+                url: 'https://sourcerer.io'
             }
         ]
     },
@@ -156,17 +160,13 @@ var data = [
         name: 'School',
         links: [
             {
-                name: 'Canvas',
-                url: 'https://carmel.instructure.com'
-            },
-            {
-                name: 'MyCCS',
-                url: 'https://myccs.ccs.k12.in.us'
+                name: 'MyPurdue',
+                url: 'https://wl.mypurdue.purdue.edu'
             }
         ]
     },
     {
-        name: 'News',
+        name: 'News/Blogs',
         links: [
             {
                 name: 'Hacker News',
@@ -187,6 +187,22 @@ var data = [
             {
                 name: 'Hackaday',
                 url: 'https://hackaday.com'
+            },
+            {
+                name: 'Dev',
+                url: 'https://dev.to'
+            },
+            {
+                name: 'Medium',
+                url: 'https://medium.com/topic/technology'
+            },
+            {
+                name: 'n-gate',
+                url: 'https://n-gate.com'
+            },
+            {
+                name: 'Google Testing Blog',
+                url: 'https://testing.googleblog.com'
             }
         ]
     }
