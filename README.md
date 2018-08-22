@@ -1,6 +1,8 @@
 # Homepage
 
-My New Tab Default Homepage
+Dynamically Generating New Tab Pages with JSON in React
+
+![screenshot](screenshot.png)
 
 ## Setup & Usage
 
