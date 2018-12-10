@@ -17,14 +17,6 @@ var data = [
       {
         name: 'All Repos',
         url: 'https://github.com/karagenit?tab=repositories'
-      },
-      {
-        name: 'Gist',
-        url: 'https://gist.github.com/'
-      },
-      {
-        name: 'FRC 868',
-        url: 'https://github.com/frc868'
       }
     ],
     inputs: [
@@ -53,43 +45,10 @@ var data = [
       {
         name: 'Sourcerer',
         url: 'https://sourcerer.io'
-      }
-    ]
-  },
-  {
-    name: 'Code Challenges',
-    links: [
-      {
-        name: 'Hacker Rank',
-        url: 'https://hackerrank.com'
-      },
-      {
-        name: 'Hacker One',
-        url: 'https://hackerone.com'
-      },
-      {
-        name: 'Code Chef',
-        url: 'https://codechef.com'
-      },
-      {
-        name: 'Top Coder',
-        url: 'https://topcoder.com'
-      },
-      {
-        name: 'Kaggle',
-        url: 'https://kaggle.com'
-      },
-      {
-        name: 'CTF Time',
-        url: 'https://ctftime.org'
       },
       {
         name: 'Produce Hunt',
         url: 'https://producthunt.com/topics/open-source'
-      },
-      {
-        name: 'Over the Wire',
-        url: 'https://overthewire.org'
       }
     ]
   },
@@ -101,20 +60,24 @@ var data = [
         url: 'http://chiefdelphi.com'
       },
       {
-        name: 'TechHOUNDS',
-        url: 'http://techhounds.com'
-      },
-      {
         name: 'FIRST Updates Now',
         url: 'http://www.firstupdatesnow.com'
       },
       {
-        name: 'Indiana Robotics YouTube',
-        url: 'https://www.youtube.com/user/IndianaRobotics/playlists'
-      },
-      {
         name: 'The Blue Alliance',
         url: 'https://www.thebluealliance.com'
+      },
+      {
+        name: 'HBR Website',
+        url: 'https://www.hbrlive.com/'
+      },
+      {
+        name: 'PFP Slack',
+        url: 'https://purduefirst.slack.com'
+      },
+      {
+        name: 'Band',
+        url: 'https://band.us/en'
       }
     ]
   },
@@ -136,6 +99,10 @@ var data = [
       {
         name: 'Gmail',
         url: 'https://gmail.com'
+      },
+      {
+        name: 'Keep',
+        url: 'https://keep.google.com'
       }
     ]
   },
@@ -153,6 +120,10 @@ var data = [
       {
         name: 'Outlook',
         url: 'https://outlook.com'
+      },
+      {
+        name: 'GroupMe',
+        url: 'https://groupme.com'
       }
     ]
   },
@@ -164,12 +135,16 @@ var data = [
         url: 'https://wl.mypurdue.purdue.edu'
       },
       {
+        name: 'Outlook',
+        url: 'https://outlook.office.com/owa/'
+      },
+      {
         name: 'Blackboard',
         url: 'https://mycourses.purdue.edu/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_17_1'
       },
       {
         name: 'Piazza',
-        url: 'https://piazza.com/class/jl2lfh0swha6fa?cid=10#'
+        url: 'https://piazza.com/'
       },
       {
         name: 'CS Opportunities',
