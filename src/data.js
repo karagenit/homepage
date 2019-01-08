@@ -151,16 +151,16 @@ var data = [
         url: 'https://www.cs.purdue.edu/corporate/opportunity-update/index.html'
       },
       {
-        name: 'CS 240',
-        url: 'http://courses.cs.purdue.edu/doku.php?id=cs24000:fall18:start'
+        name: 'CS 250',
+        url: '#'
       },
       {
-        name: 'CS 182',
-        url: 'https://www.cs.purdue.edu/homes/spa/cs182.html'
+        name: 'CS 251',
+        url: 'https://www.cs.purdue.edu/homes/aliaga/cs251-19/'
       },
       {
-        name: 'MA 161',
-        url: 'http://www.math.purdue.edu/academic/courses/coursepage?subject=MA&course=16100I'
+        name: 'BoilerLink',
+        url: 'https://boilerlink.purdue.edu/'
       }
     ]
   },
