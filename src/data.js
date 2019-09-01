@@ -60,25 +60,9 @@ var data = [
         url: 'http://chiefdelphi.com'
       },
       {
-        name: 'FIRST Updates Now',
-        url: 'http://www.firstupdatesnow.com'
-      },
-      {
         name: 'The Blue Alliance',
         url: 'https://www.thebluealliance.com'
       },
-      {
-        name: 'HBR Website',
-        url: 'https://www.hbrlive.com/'
-      },
-      {
-        name: 'PFP Slack',
-        url: 'https://purduefirst.slack.com'
-      },
-      {
-        name: 'Band',
-        url: 'https://band.us/en'
-      }
     ]
   },
   {
@@ -91,10 +75,6 @@ var data = [
       {
         name: 'Calendar',
         url: 'https://calendar.google.com'
-      },
-      {
-        name: 'Hangouts',
-        url: 'https://hangouts.google.com'
       },
       {
         name: 'Gmail',
@@ -151,16 +131,28 @@ var data = [
         url: 'https://www.cs.purdue.edu/corporate/opportunity-update/index.html'
       },
       {
-        name: 'CS 250',
-        url: '#'
-      },
-      {
-        name: 'CS 251',
-        url: 'https://www.cs.purdue.edu/homes/aliaga/cs251-19/'
-      },
-      {
         name: 'BoilerLink',
         url: 'https://boilerlink.purdue.edu/'
+      },
+      {
+        name: 'CS 252',
+        url: 'https://courses.cs.purdue.edu/cs25200:fall19:start'
+      },
+      {
+        name: 'CS 307',
+        url: 'https://courses.cs.purdue.edu/cs30700:fall19:start'
+      },
+      {
+        name: 'myEPICS',
+        url: 'https://engineering.purdue.edu/MyEpics/'
+      },
+      {
+        name: 'EPICS SharePoint',
+        url: 'https://purdue0.sharepoint.com/sites/epics/EVEI/SitePages/Home.aspx'
+      },
+      {
+        name: 'McGraw-Hill Connect',
+        url: 'https://newconnect.mheducation.com/flow/connect.html'
       }
     ]
   },
