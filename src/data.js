@@ -43,26 +43,9 @@ var data = [
         url: 'https://jsfiddle.net'
       },
       {
-        name: 'Sourcerer',
-        url: 'https://sourcerer.io'
-      },
-      {
         name: 'Produce Hunt',
         url: 'https://producthunt.com/topics/open-source'
       }
-    ]
-  },
-  {
-    name: 'FIRST',
-    links: [
-      {
-        name: 'Chief Delphi',
-        url: 'http://chiefdelphi.com'
-      },
-      {
-        name: 'The Blue Alliance',
-        url: 'https://www.thebluealliance.com'
-      },
     ]
   },
   {
@@ -94,16 +77,21 @@ var data = [
         url: 'https://en.wikipedia.org'
       },
       {
-        name: 'Reddit',
-        url: 'https://reddit.com'
-      },
-      {
         name: 'Outlook',
         url: 'https://outlook.com'
       },
       {
         name: 'GroupMe',
         url: 'https://groupme.com'
+      }
+    ]
+  },
+  {
+    name: 'Delta Sig',
+    links: [
+      {
+        name: 'OmegaFi',
+        url: 'https://my.omegafi.com/apps/myomegafi/index.php'
       }
     ]
   },
@@ -136,11 +124,15 @@ var data = [
       },
       {
         name: 'CS 252',
-        url: 'https://courses.cs.purdue.edu/cs25200:fall19:start'
+        url: 'https://endor.cs.purdue.edu/~cs252'
       },
       {
         name: 'CS 307',
         url: 'https://courses.cs.purdue.edu/cs30700:fall19:start'
+      },
+      {
+        name: 'CS 307 Slack',
+        url: 'https://cs307talk.slack.com'
       },
       {
         name: 'myEPICS',
@@ -153,6 +145,10 @@ var data = [
       {
         name: 'McGraw-Hill Connect',
         url: 'https://newconnect.mheducation.com/flow/connect.html'
+      },
+      {
+        name: 'Psych SONA System',
+        url: 'https://purdue-psych.sona-systems.com/main.aspx'
       }
     ]
   },
