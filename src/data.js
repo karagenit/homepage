@@ -123,32 +123,16 @@ var data = [
         url: 'https://boilerlink.purdue.edu/'
       },
       {
-        name: 'CS 252',
-        url: 'https://endor.cs.purdue.edu/~cs252'
+        name: 'CS 354',
+        url: 'https://www.cs.purdue.edu/homes/cs354/'
       },
       {
-        name: 'CS 307',
-        url: 'https://courses.cs.purdue.edu/cs30700:fall19:start'
+        name: 'CS 408',
+        url: '#'
       },
       {
-        name: 'CS 307 Slack',
-        url: 'https://cs307talk.slack.com'
-      },
-      {
-        name: 'myEPICS',
-        url: 'https://engineering.purdue.edu/MyEpics/'
-      },
-      {
-        name: 'EPICS SharePoint',
-        url: 'https://purdue0.sharepoint.com/sites/epics/EVEI/SitePages/Home.aspx'
-      },
-      {
-        name: 'McGraw-Hill Connect',
-        url: 'https://newconnect.mheducation.com/flow/connect.html'
-      },
-      {
-        name: 'Psych SONA System',
-        url: 'https://purdue-psych.sona-systems.com/main.aspx'
+        name: 'MA 166',
+        url: 'https://www.math.purdue.edu/academic/courses/coursepage?subject=MA&course=16600'
       }
     ]
   },
